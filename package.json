@@ -1,0 +1,1 @@
+{ "name": "env-example", "version": "1.0.0", "description": "Génère .env.example à partir de .env, sans copier les valeurs.", "license": "MIT", "bin": { "env-example": "env-example.js" }, "engines": { "node": ">=18" } }
