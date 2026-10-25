@@ -1,1 +1,13 @@
-{ "name": "env-example", "version": "1.0.0", "description": "Génère .env.example à partir de .env, sans copier les valeurs.", "license": "MIT", "bin": { "env-example": "env-example.js" }, "engines": { "node": ">=18" } }
+{
+  "name": "env-example",
+  "version": "1.1.0",
+  "description": "Génère .env.example à partir de .env, sans copier les valeurs.",
+  "license": "MIT",
+  "bin": { "env-example": "env-example.js" },
+  "scripts": { "test": "node --test" },
+  "files": ["env-example.js"],
+  "keywords": ["env", "dotenv", "env-example", "secrets", "cli"],
+  "repository": { "type": "git", "url": "git+https://github.com/AGBERESahir/env-example.git" },
+  "author": "Sâhir AGBERE",
+  "engines": { "node": ">=18" }
+}
